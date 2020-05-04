@@ -12,12 +12,11 @@
 .page2-img{
     background: url("https://via.placeholder.com/360x580.jpg");
     height: 580px;
-    width: 360px;
-    margin-left: 5rem;
-    margin-top: -3rem;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-top: 6em;
 }
-
-
 
 .fl-grow{
     display: flex;
@@ -32,11 +31,9 @@
     margin-top: 5rem;
     color: #2f3231;
 }
-*{
-    outline: 1px solid red;
-}
+
 .deep-margin{
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 .crd-color{
     background-color:#e0ab71;
@@ -47,18 +44,19 @@
 .card2{
     display: flex;
     justify-content: center;
+    text-align: center;
     width: auto;
-    background-color: aliceblue;
+    height: 100px;
+    background-color: slategray;
     border-radius: .25rem;
-    margin: 5rem;
+    margin: 10px;
 }
 .txt-fren{
     outline: 1px solid aliceblue;
     background-color: #e0ab71;
     height: 93px;
     width: 8px;
-    float: right;
-    position: relative;
+    position: relative
 }
 
 .align-center{
@@ -91,18 +89,12 @@
 }
 
 .offset-card{
-    margin-left: 4rem;
     margin-top: 2rem;
-    width: 700px;
-    height: 350px;
+    margin-bottom: -60px;
     background-color: aliceblue;
-    box-shadow: 5px solid black;
+    box-shadow: 8px solid black;
+    justify-content: space-around;
 }
-
-.sub-group-1{
-    padding-top: 3rem;
-}
-
 .msg-block{
     width: 100%;
     height: 100px;
@@ -117,3 +109,19 @@
     color:#2f3231;
     position: absolute;
 }
+@media (min-width: 575.98px) {
+    .img-txt{
+        visibility: visible;
+    }
+}
+@media (max-width: 575.98px) {
+    .img-txt{
+        visibility: hidden;
+    }
+    *{
+        margin: 3px;
+    }
+    .sub-group{
+        flex-direction: row-reverse;
+    }
+ }
