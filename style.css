@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
 .bg-img{
     background: url("https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: 100% 100%;
@@ -28,12 +30,15 @@
 }
 
 .pg-2-txt{
-    margin-top: 5rem;
+    margin: 8rem;
     color: #2f3231;
 }
 
 .deep-margin{
     margin-top: 4rem;
+}
+.deeper-margin{
+    margin-top: 12rem;
 }
 .crd-color{
     background-color:#e0ab71;
@@ -46,7 +51,7 @@
     justify-content: center;
     text-align: center;
     width: auto;
-    height: 100px;
+    height: 230px;
     background-color: slategray;
     border-radius: .25rem;
     margin: 10px;
@@ -93,7 +98,7 @@
     margin-bottom: -60px;
     background-color: aliceblue;
     box-shadow: 8px solid black;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .msg-block{
     width: 100%;
@@ -105,9 +110,11 @@
 }
 .footer{
     width: 100%;
-    background-color:#e0ab71;
     color:#2f3231;
-    position: absolute;
+    position: relative; 
+}
+.center-text{
+    text-align: center;
 }
 @media (min-width: 575.98px) {
     .img-txt{
