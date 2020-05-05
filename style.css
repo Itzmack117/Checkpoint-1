@@ -48,14 +48,19 @@
 }
 .card2{
     display: flex;
-    justify-content: center;
+    margin: 0px;
     text-align: center;
-    width: auto;
-    height: 230px;
+    height: 87%;
+    width: 100%;
+    justify-content: center;
     background-color: slategray;
     border-radius: .25rem;
-    margin: 10px;
+
 }
+.wide-card{
+    height: 97%;
+}
+
 .txt-fren{
     outline: 1px solid aliceblue;
     background-color: #e0ab71;
@@ -88,9 +93,11 @@
 .sub-txt{
     color:#2f3231;
     margin: 1rem;
+    margin-top: 4rem;
     border-radius: .25rem;
     padding-right: 2px;
     padding-left: 2px;
+    text-align: left;
 }
 
 .offset-card{
@@ -98,7 +105,6 @@
     margin-bottom: -60px;
     background-color: aliceblue;
     box-shadow: 8px solid black;
-    justify-content: space-evenly;
 }
 .msg-block{
     width: 100%;
@@ -126,9 +132,6 @@
         visibility: hidden;
     }
     *{
-        margin: 3px;
+        margin: 2px;
     }
-    .sub-group{
-        flex-direction: row-reverse;
-    }
- }
+}
